@@ -1,74 +1,149 @@
 let projects = [
   {
-    name: "Principal Component Analysis",
+    name: "Herconomy Savings",
     description:
-      "Displays categorically the various components and features of how a data set can be analysed and interpreted.",
-    technologies: ["Python", "Pandas", "Numpy"],
-    github: "https://github.com/UCHENNA07/A-Data-Analysis-Project-With-Pandas-Numpy-And-Principal-Component-Analysis",
-    preview: null,
+      "Savings platform that encourages women to earn interests while they save.",
+    technologies: ["ReactJs", "Redux", "Sass"],
+    github: null,
+    preview: "https://dashboard.herconomy.com/",
     image: "",
   },
   {
-    name: "Energy Data Analytics ",
+    name: "Taxit",
     description:
-      "This is a practical analysis and visualization project about energy consumption by different countries over a certain period of time. ",
-    technologies: [],
-    github: "https://github.com/UCHENNA07/A-Python-Data-Visualization-Project-On-Energy-Consumption",
-    preview: null,
+      "Worked as a contract developer to build the company's Landing page.",
+    technologies: ["ReactJs", "Sass", "CSS"],
+    github: "https://github.com/chinexman/TaxIT",
+    preview: "tax-dlhcdnvtp-chinexman.vercel.app",
     image: "",
   },
+
   {
-    name: "Time Series Analysis",
+    name: "Agency",
     description:
-      "This project lays emphasis on time series forecasting, checking stationaries of a time series, making time series stationary.",
-    technologies: [],
-    github: "https://github.com/UCHENNA07/Time-Series-Analysis-with-Python",
-    preview: null,
+      "every woman has the opportunity to help us achieve this dream while earning money by the side.",
+    technologies: ["ReactJs", "Redux", "Sass", ""],
+    github: null,
+    preview: "https://agency.herconomy.com/landing",
     image: "",
-  },
-  {
-    name: "Application Programming Interface ",
-    description:
-      "This project solely relies on utilizing application programming interface to get data from a website.",
-    technologies: [],
-    github: "https://github.com/UCHENNA07/Python-Data-Extraction-And-Analysis-From-The-Web-Utilizing-API",
-    preview: null,
-    image: "",
-  },
-  {
-    name: "Data Visualization",
-    description:
-      "Utilized Power BI to create an informative dashboard for Superstore report.",
-    technologies: [],
-    github: "https://github.com/UCHENNA07/Data-Visualization-Utilizing-Power-BI",
-    preview: null,
-    image: "",
-  },
-  {
-    name: "Data Visualization",
-    description:
-      "Visualization of Walmart data using Microsoft Power BI",
-    technologies: [],
-    github: "https://github.com/UCHENNA07/Data-Transformation-and-Visualization-Utilizing-Microsoft-Power-BI",
-    preview: null,
-    image: "",
-  },
-  {
-    name: "Data analysis and Visualization",
-    description: "Data cleaning, analysis and visualization with Microsoft Excel.",
-    technologies: [],
-    github: "https://github.com/UCHENNA07/Data-Analysis-and-Visualization-Utilizing-Microsoft-Excel",
-    preview: null,
-    image: "",
-  },
-  {
-    name: "SQL Project ",
-    description: "Using Data Manipulation Language (DML), Data Control Language (DCL) and Data Definition Language (DDL) for the purpose of accessing all information in the database.",
-    technologies: [],
-    github: "https://github.com/UCHENNA07/SQL-Project",
-    preview: null,
-    image: "",
-  },
+  }
+  // ,
+  // {
+  //   name: "Playstation 4 UI",
+  //   description:
+  //     "An interactive play station 4 landing page clone.",
+  //   technologies: ["ReactJs", "Sass"],
+  //   github: "https://github.com/devchux/playstation",
+  //   preview: "https://playstation4.netlify.app/",
+  //   image: "",
+  // },
+  // {
+  //   name: "My Dream Job",
+  //   description:
+  //     "A job placement website where users can search for jobs as well as create new jobs",
+  //   technologies: ["Node", "Express", "MongoDB", "EJS"],
+  //   github: "https://github.com/devchux/jobboard",
+  //   preview: "https://mydreamjob-alpha.herokuapp.com/",
+  //   image: "",
+  // },
+  // {
+  //   name: "DevHunt",
+  //   description:
+  //     "A web application that provides a list of developers and their details by consuming Github graphql Api.",
+  //   technologies: [
+  //     "React",
+  //     "SCSS",
+  //     "Material UI",
+  //     "Github GraphQL API",
+  //     "Apollo Client",
+  //   ],
+  //   github: "https://github.com/devchux/devhunt",
+  //   preview: "https://devhunt-github.netlify.app/",
+  //   image: "",
+  // },
+  // {
+  //   name: "MiniCrm",
+  //   description: "A mini customer relationship management dashboard",
+  //   technologies: ["React", "Redux"],
+  //   github: "https://github.com/devchux/easycrm-frontend",
+  //   preview: "https://easycrmui.netlify.app/",
+  //   image: "",
+  // },
+  // {
+  //   name: "Balance",
+  //   description: "A mern stack app to track a user's expenses.",
+  //   technologies: ["React", "Express", "MongoDB"],
+  //   github: "https://github.com/devchux/balance/",
+  //   preview: "https://mybalance-app.netlify.app/",
+  //   image: "",
+  // },
+  // {
+  //   name: "Luno Page Clone",
+  //   description: "A clone of luno's official landing page.",
+  //   technologies: ["React", "Tailwind CSS"],
+  //   github: "https://github.com/devchux/luno-landing-page",
+  //   preview: "https://luno-page.netlify.app",
+  //   image: "",
+  // },
+  // {
+  //   name: "Breaking News",
+  //   description: "News application that displays latest new in Nigeria",
+  //   technologies: ["Next", "News Data API"],
+  //   github: "https://github.com/devchux/breaking-news",
+  //   preview: "https://breaking-news-alpha.vercel.app/",
+  //   image: "",
+  // },
+  // {
+  //   name: "EasyCrm",
+  //   description:
+  //     "A landing page for a customer relationship management software.",
+  //   technologies: ["React"],
+  //   github: "https://github.com/devchux/Team-067-A-Frontend",
+  //   preview: "https://sdgcrm.netlify.app/",
+  //   image: "",
+  // },
+  // {
+  //   name: "Scala Page",
+  //   description: "A landing page for an online investment trading platform",
+  //   technologies: ["HTML", "CSS", "JavaScript"],
+  //   github: "https://github.com/devchux/scala-landing-page",
+  //   preview: "https://scala-page.netlify.app/",
+  //   image: "",
+  // },
+  // {
+  //   name: "Instaclone",
+  //   description:
+  //     "An instagram-like web app built with JavaScript modularization practice and database management with IndexedDB",
+  //   technologies: ["HTML", "CSS", "JavaScript", "IndexedDB"],
+  //   github: "https://github.com/devchux/instaclone",
+  //   preview: "https://devchux.github.io/instaclone/",
+  //   image: "",
+  // },
+  // {
+  //   name: "Cash Tracker",
+  //   description: "Cash tracker app to estimate cash flow",
+  //   technologies: ["React", "Redux"],
+  //   github: "https://github.com/devchux/Cash-Tracker",
+  //   preview: "https://cashtrackerv1.netlify.app/",
+  //   image: "",
+  // },
+  // {
+  //   name: "DevEvents",
+  //   description:
+  //     "A developer events app where developers can share details about upcoming events.",
+  //   technologies: ["Angular"],
+  //   github: "https://github.com/devchux/dev-events",
+  //   preview: "https://devevents.netlify.app/",
+  //   image: "",
+  // },
+  // {
+  //   name: "Mini Calculator",
+  //   description: "A simple calculator.",
+  //   technologies: ["HTML", "CSS", "JavaScript"],
+  //   github: "https://github.com/devchux/calculator-js",
+  //   preview: "https://devchux.github.io/calculator-js/",
+  //   image: "",
+  // },
 ];
 
 AOS.init();
